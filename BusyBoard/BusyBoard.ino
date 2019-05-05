@@ -76,6 +76,9 @@ void loop() {
       case 'C':
         play(oldMcDonald);
         break;
+      case 'D':
+        play(snegurochka);
+        break;
     }
   }
 
