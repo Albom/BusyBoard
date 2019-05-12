@@ -79,6 +79,12 @@ void loop() {
       case 'D':
         play(snegurochka);
         break;
+      case '#':
+        play(wheels);
+        break;
+      case '*':
+        play(cherry);
+        break;
     }
   }
 

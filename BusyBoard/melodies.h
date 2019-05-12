@@ -95,7 +95,7 @@ const PROGMEM char friendship[] = {
   ND4, DQ, NCS4, DQ, NE4, DH,
   NAS4, DH, NE4, DH, NE4, DQ, ND4, DQ, NF4, DH,
   NC5, DH, NFS4, DH, NA4, DQ, NG4, DQ, NG4, DH,
-  NF4, DQ, NE4, DQ, ND4, DQ, NC4, DQ, NA4, DH, NP, DH, 
+  NF4, DQ, NE4, DQ, ND4, DQ, NC4, DQ, NA4, DH, NP, DH,
   ND5, DQ, NA4, DQ, NGS4, DQ, NA4, DQ,
   NC5, DH, NAS4, DH,
   NC5, DQ, NG4, DQ, NFS4, DQ, NG4, DQ,
@@ -151,10 +151,10 @@ const PROGMEM char mamont[] = {
 };
 
 const PROGMEM char snegurochka[] = {
-  NFS4, DQ, NFS4, DQ, NA4, DQ, NA4, DQ, 
+  NFS4, DQ, NFS4, DQ, NA4, DQ, NA4, DQ,
   NA4, DH, NG4, DQ, NG4, DQ,
   NB4, DH, NB4, DH, NA4, DF,
-  NFS4, DQ, NFS4, DQ, NA4, DQ, NA4, DQ, 
+  NFS4, DQ, NFS4, DQ, NA4, DQ, NA4, DQ,
   NA4, DH, NG4, DQ, NG4, DQ,
   NB4, DH, NB4, DH, NA4, DF,
   NFS4, DQ, NFS4, DQ, NFS4, DQ, NFS4, DQ,
@@ -165,19 +165,52 @@ const PROGMEM char snegurochka[] = {
   ND4, DH, NG3, DQ, NG3, DQ,
   ND4, DH, NCS4, DH,
   ND4, DQ, NP, DQ, ND4, DH,
-  ND4, DH, NAS4, DH, 
+  ND4, DH, NAS4, DH,
   NP, DH, NG4, DH,
   NC4, DH, NA4, DH,
   NP, DH, NF4, DH,
   NAS3, DH, NG4, DF,
   NA4, DQ, NG4, DQ, NF4, DH,
-  NP, DH, NP, DF, 
+  NP, DH, NP, DF,
   NC4, DH, NAS3, DQ, NAS3, DQ,
-  NAS3, DH, NP, DH, 
+  NAS3, DH, NP, DH,
   ND4, DH, NC4, DQ, NC4, DQ,
   NC4, DH, NP, DH,
   NE4, DH, ND4, DQ, ND4, DQ,
   NCS4, DH, NB3, DQ, NCS4, DQ,
-  ND4, DQ, NP, DQ, 
+  ND4, DQ, NP, DQ,
+  NEND
+};
+
+const PROGMEM char wheels[] = {
+  NC4, DH, NF4, DH, NF4, DQ, NF4, DQ,
+  NF4, DH, NA4, DH,
+  NC5, DH, NA4, DH,
+  NF4, DF,
+  NG4, DH, NG4, DH, NG4, DF,
+  NE4, DH, ND4, DH,
+  NC4, DH, NC4, DH,
+  NF4, DH, NF4, DQ, NF4, DQ,
+  NF4, DH, NA4, DH,
+  NC5, DH, NA4, DH, NF4, DF,
+  NG4, DF, NC4, DF, NF4, DF,
+  NEND
+};
+
+const PROGMEM char cherry[] = {
+  NG4, DQ, NG4, DQ, NB4, DH,
+  NA4, DQ, NFS4, DQ, ND4, DH,
+  NG4, DQ, NG4, DQ, NB4, DQ, ND5, DQ,
+  NA4, DQ, NFS4, DQ, ND4, DH,
+  NG4, DQ, NG4, DQ, NG4, DQ, NA4, DE, NB4, DE,
+  NC5, DQ, NC5, DQ, NC5, DQ, NE5, DQ, NE5, DQ,
+  ND5, DQ, ND5, DQ, ND4, DQ, NE4, DE,
+  NFS4, DE,
+  NG4, DQ, NG4, DQ, NG4, DH,
+  NG4, DQ, NG4, DQ, NG4, DQ, NA4, DE, NB4, DE,
+  NC5, DQ, NC5, DQ, NC5, DQ, NE5, DQ, NE5, DQ,
+  ND5, DQ, ND5, DQ, ND4, DQ, NE4, DE,
+  NFS4, DE,
+  NG4, DQ, NG4, DQ, NG4, DH,
   NEND
 };
